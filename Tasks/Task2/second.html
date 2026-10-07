@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Page</title>
+</head>
+
+<body style="background-color:#FAFAFA; min-height:100vh; margin:0;">
+
+<header style="background:#DCEFEF; text-align:center; padding:20px;">
+    <h1>User Registration Portal</h1>
+</header>
+
+<form action="third.html" method="get" style="margin:50px auto 0; width:fit-content;">
+
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+
+<tr>
+    <th colspan="2">Create Your Account</th>
+</tr>
+
+<tr>
+    <td>Login Name:</td>
+    <td><input type="text" name="loginname" required></td>
+</tr>
+
+<tr>
+    <td>Enter Password:</td>
+    <td><input type="password" name="password" required></td>
+</tr>
+
+<tr>
+    <td>Re-enter Password:</td>
+    <td><input type="password" name="repassword" required></td>
+</tr>
+
+<tr>
+    <td>Gender:</td>
+    <td>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Country:</td>
+    <td>
+        <select name="country">
+            <option>China</option>
+            <option>Japan</option>
+            <option>Pakistan</option>
+            <option>UAE</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>License:</td>
+    <td>
+        <textarea name="license" rows="3" cols="25">I agree to follow all the terms and conditions.</textarea>
+    </td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>
+        <input type="checkbox" name="agreement" required>
+        I agree to the license.
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+<footer style="background:#DCEFEF; text-align:center; padding:15px; margin-top:80px;">
+    <p>© 2026 Student Web Portal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
