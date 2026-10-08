@@ -1,56 +1,19 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Pakistan</title>
-</head>
-
-<body style="background-color:#FAFAFA;">
-
-<header style="background:#DCEFEF; text-align:center; padding:20px;">
-    <h1>Pakistan</h1>
-    <p>Map and National Anthem</p>
-</header>
-
-<h2 style="text-align:center;">Pakistan Map and National Anthem</h2>
-
-<table border="1" cellpadding="15" cellspacing="0" align="center">
-
-    <tr>
-
-        <!-- Pakistan Map -->
-        <td style="text-align:center;">
-
-            <h3>Pakistan Map</h3>
-
-            <img src="maps/pakistan-map.png"
-                 width="500"
-                 height="500"
-                 style="object-fit:contain;">
-
-        </td>
-
-
-        <!-- National Anthem Video -->
-        <td style="text-align:center;">
-
-            <h3>National Anthem</h3>
-
-            <video width="500"
-                   height="500"
-                   controls
-                   style="object-fit:cover;">
-
-                <source src="videos/pakistan-national-anthem.mp4"
-                        type="video/mp4">
-
-            </video>
-
-        </td>
-
-    </tr>
-
-</table>
-
-</body>
+    <head>
+        <title>Asia Map</title> 
+    </head> <body style="background-color:#FAFAFA;"> 
+        <header style="background:#DCEFEF; text-align:center; padding:20px;"> 
+            <h1>Asia Map</h1> 
+            <p>Click on a country to explore it.</p> 
+        </header> <h2 style="text-align:center;">Countries of Asia</h2> 
+        <div style="text-align:center;"> 
+            <img src="maps/asia-map.png" width="761" usemap="#asiamap"> 
+        </div> 
+        <map name="asiamap"> 
+            <!-- Iran --> <area shape="poly" coords="75,395, 115,375, 155,390, 185,420, 175,455, 145,480, 105,475, 80,450" href="iran.html" alt="Iran"> 
+            <!-- Pakistan --> <area shape="poly" coords="180,425, 220,420, 255,445, 285,475, 275,515, 245,545, 210,530, 190,495, 175,460" href="pakistan.html" alt="Pakistan"> 
+            <!-- China --> <area shape="poly" coords="325,345, 385,325, 455,330, 520,350, 575,375, 590,425, 570,475, 535,515, 480,540, 420,535, 370,515, 335,480, 315,430" href="china.html" alt="China"> 
+        </map> 
+    </body> 
 </html>
