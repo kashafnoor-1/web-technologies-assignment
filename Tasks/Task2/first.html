@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head><title>Login Page</title></head>
-<body style="background-color:#FAFAFA; min-height: 100vh; margin: 0;">
+<head>
+    <title>Login Page</title>
+</head>
+<body>
 
-<header style="background:#DCEFEF; text-align:center; padding:20px;">
+<header align="center">
     <h1>User Registration Portal</h1>
-    <p>Login • Registration • Account Access</p>
-</header>
+    <p>Login  •  Registration  •  Account Access</p>
+</header> 
 
-<form action="second.html" method="get" style="margin: 80px auto 0; width: fit-content;">
+<hr>
 
-<table border="1" cellpadding="10" cellspacing="0" align="center">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-<tr>
-<th colspan="2">Login to Continue</th>
-</tr>
 
-<tr>
-<td>Username:</td>
-<td><input type="text" name="username" required></td>
-</tr>
+<main>
+    <form action="second.html" method="get">
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+            <thead>
+                <tr>
+                    <th colspan="2">Login to Continue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" name="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</main>
 
-<tr>
-<td>Password:</td>
-<td><input type="password" name="password" required></td>
-</tr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-<tr>
-<td colspan="2" align="center">
-<input type="submit" value="Login">
-<input type="reset" value="Reset">
-</td>
-</tr>
 
-</table>
-</form>
-<footer style="background:#DCEFEF; text-align: center; padding: 15px; margin-top: 245px">
-<p>© 2026 My Website|All Rights Reserved</p>
+<hr>
+
+<footer align="center">
+    <p>© 2026 My Website | All Rights Reserved</p>
 </footer>
+
 </body>
 </html>
