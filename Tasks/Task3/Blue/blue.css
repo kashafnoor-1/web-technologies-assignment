@@ -1,0 +1,228 @@
+body {
+    background-color: #f5f9ff;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#header {
+    background-color: #316897;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+#footer {
+    background-color: #316897;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+#loginBox {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #316897;
+}
+
+#loginTitle {
+    background-color: #316897;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#usernameRow,
+#passwordRow {
+    display: flex;
+    margin-top: 15px;
+}
+
+#usernameLabel,
+#passwordLabel {
+    width: 120px;
+}
+
+#usernameInput input,
+#passwordInput input {
+    padding: 8px;
+    width: 220px;
+}
+
+#usernameInput input:hover,
+#passwordInput input:hover {
+    background-color: #e4e6e8;
+}
+
+#loginButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#loginButtons input {
+    background-color: #316897;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    margin: 5px 15px;
+}
+
+#menu {
+    text-align: center;
+    background-color: #DCE9F2;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #316897;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+#menu a:hover {
+    background-color: #316897;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#registrationBox {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #316897;
+}
+
+#registrationTitle {
+    background-color: #316897;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#loginNameRow,
+#passwordRow,
+#repasswordRow,
+#genderRow,
+#countryRow,
+#licenseRow {
+    display: flex;
+    margin-top: 15px;
+}
+
+#registrationBox #loginNameLabel,
+#registrationBox #passwordLabel,
+#registrationBox #repasswordLabel,
+#registrationBox #genderLabel,
+#registrationBox #countryLabel,
+#registrationBox #licenseLabel {
+    width: 140px;
+}
+
+#loginNameInput input,
+#passwordInput input,
+#repasswordInput input {
+    padding: 8px;
+    width: 220px;
+}
+
+#loginNameInput input:hover,
+#passwordInput input:hover,
+#repasswordInput input:hover {
+    background-color: #e4e6e8;
+}
+
+#agreementRow {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#registrationButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#registrationButtons input {
+    background-color: #316897;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    margin: 5px 15px;
+}
+
+
+
+
+
+
+#thankYou {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+#registrationBox #genderInput,
+#registrationBox #countryInput {
+    padding-top: 2px;
+}
+
+#countryInput select {
+    padding: 6px;
+    width: 238px;
+}
+
+#licenseInput textarea {
+    width: 220px;
+    padding: 8px;
+}
+
+#genderInput input {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+#registerLink:hover {
+    background-color: #316897;
+    color: white;
+}
+
+
+
+
