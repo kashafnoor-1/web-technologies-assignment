@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="blue.css">
+</head>
+
+<body>
+
+<header id="header">
+    <h1>User Registration Portal</h1>
+</header>
+
+<nav id="menu">
+    <a href="first.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact Us</a>
+    <a href="second.html" id="registerLink">Register</a>
+</nav>
+
+<main>
+
+    <form action="third.html" method="get">
+
+        <div id="registrationBox">
+
+            <div id="registrationTitle">
+                Create Your Account
+            </div>
+<br>
+            <div id="loginNameRow">
+
+                <div id="loginNameLabel">
+                    <label for="loginname">Login Name:</label>
+                </div>
+
+                <div id="loginNameInput">
+                    <input type="text" id="loginname" name="loginname" required>
+                </div>
+
+            </div>
+
+            <div id="passwordRow">
+
+                <div id="passwordLabel">
+                    <label for="password">Enter Password:</label>
+                </div>
+
+                <div id="passwordInput">
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+            </div>
+
+            <div id="repasswordRow">
+
+                <div id="repasswordLabel">
+                    <label for="repassword">Re-enter Password:</label>
+                </div>
+
+                <div id="repasswordInput">
+                    <input type="password" id="repassword" name="repassword" required>
+                </div>
+
+            </div>
+
+            <div id="genderRow">
+
+                <div id="genderLabel">
+                    Gender:
+                </div>
+
+                <div id="genderInput">
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                </div>
+
+            </div>
+
+            <div id="countryRow">
+
+                <div id="countryLabel">
+                    <label for="country">Country:</label>
+                </div>
+
+                <div id="countryInput">
+
+                    <select id="country" name="country">
+                        <option>China</option>
+                        <option>Japan</option>
+                        <option>Pakistan</option>
+                        <option>UAE</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div id="licenseRow">
+
+                <div id="licenseLabel">
+                    <label for="license">License:</label>
+                </div>
+
+                <div id="licenseInput">
+                    <textarea id="license" name="license" rows="3" cols="25">I agree to follow all the terms and conditions.</textarea>
+                </div>
+
+            </div>
+
+            <div id="agreementRow">
+
+                <input type="checkbox" id="agreement" name="agreement" required>
+
+                <label for="agreement">
+                    I agree to the license.
+                </label>
+
+            </div>
+
+            <div id="registrationButtons">
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Register">
+
+            </div>
+
+        </div>
+
+    </form>
+
+</main>
+
+<footer id="footer">
+    <p>© 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
