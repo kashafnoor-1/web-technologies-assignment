@@ -1,0 +1,294 @@
+/* Color Palette Updated:
+   Background: #F8FBF1
+   Primary Accent: #3B6930
+   Menu Background: #E4ECDC
+*/
+
+body {
+    background-color: #F8FBF1;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#header {
+    background-color: #3B6930;    
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #2b4e23;
+}
+
+#footer {
+    background-color: #3B6930;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #2b4e23;
+}
+
+/* Card Container Boxes with Background Accent */
+#loginBox {
+
+background-image: linear-gradient(rgba(248, 251, 241, 0.75), rgba(248, 251, 241, 0.75)), url('fjwu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    
+    /* Box Model Borders per side */
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3B6930;
+    
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #3B6930;
+    
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #3B6930;
+    
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #3B6930;
+
+    background-color: #ffffff;
+    border-radius: 8px;
+
+}
+
+#registrationBox {
+
+background-image: linear-gradient(rgba(248, 251, 241, 0.75), rgba(248, 251, 241, 0.75)), url('fjwu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+
+    /* Box Model Borders per side */
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #3B6930;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #3B6930;
+
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #3B6930;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #3B6930;
+
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#loginTitle, #registrationTitle {
+    background-color: #3B6930;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Row Alignments & Spacing */
+#usernameRow,
+#passwordRow,
+#loginNameRow,
+#repasswordRow,
+#genderRow,
+#countryRow,
+#licenseRow {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#usernameLabel,
+#passwordLabel {
+    width: 120px;
+    padding-top: 6px;
+}
+
+#registrationBox #loginNameLabel,
+#registrationBox #passwordLabel,
+#registrationBox #repasswordLabel,
+#registrationBox #genderLabel,
+#registrationBox #countryLabel,
+#registrationBox #licenseLabel {
+    width: 150px;
+    padding-top: 6px;
+}
+
+/* Form Inputs with Padding & Border Box Adjustments */
+#usernameInput input,
+#passwordInput input,
+#loginNameInput input,
+#repasswordInput input {
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    width: 220px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+#usernameInput input:hover,
+#passwordInput input:hover,
+#loginNameInput input:hover,
+#repasswordInput input:hover {
+    background-color: #e4e6e8;
+}
+
+/* Navigation Bar */
+#menu {
+    text-align: center;
+    background-color: #E4ECDC;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3B6930;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+#menu a:hover {
+    background-color: #3B6930;
+    color: white;
+}
+
+#agreementRow {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#loginButtons,
+#registrationButtons {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#loginButtons input,
+#registrationButtons input {
+    background-color: #3B6930;
+    color: white;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+#thankYou {
+
+background-image: linear-gradient(rgba(248, 251, 241, 0.75), rgba(248, 251, 241, 0.75)), url('fjwu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    flex: 1;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+
+#registrationBox #genderInput,
+#registrationBox #countryInput {
+    padding-top: 4px;
+}
+
+#countryInput select {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 242px;
+}
+
+#licenseInput textarea {
+    width: 220px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+#genderInput input {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#registerLink:hover {
+    background-color: #3B6930;
+    color: white;
+}
