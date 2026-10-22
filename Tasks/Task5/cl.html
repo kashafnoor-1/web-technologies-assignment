@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+
+<body id="page" style="margin: 0; font-family: Arial; min-height: 100vh; display: flex; flex-direction: column; background-color: lightblue;">
+
+    <header id="header" style="background-color: blue; color: white; padding: 15px; text-align: center;">
+        <h2>My Website</h2>
+    </header>
+
+    <div id="menubar" style="background-color: lightgray; padding: 12px; text-align: center;">
+        <button onclick="blue()">Blue</button>
+        <button onclick="green()">Green</button>
+        <button onclick="yellow()">Yellow</button>
+    </div>
+
+    <main style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 30px 0;">
+
+        <div id="loginform" style="border: 3px solid blue; padding: 30px; width: 300px; text-align: center; border-radius: 10px; background-color: white;">
+
+            <h3>Login Form</h3>
+
+            <div>
+                <label for="username">Login:</label>
+            </div>
+
+            <input type="text" id="username"
+                   placeholder="admin"
+                   style="width: 170px; padding: 8px; border: 2px solid blue; border-radius: 5px;">
+
+            <br><br>
+
+            <div>
+                <label for="password">Password:</label>
+            </div>
+
+            <input type="password" id="password"
+                   placeholder="1234"
+                   style="width: 170px; padding: 8px; border: 2px solid blue; border-radius: 5px;">
+
+            <br><br>
+
+            <button id="loginbutton" onclick="login()"
+                    style="background-color: blue; color: white; padding: 8px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                Login
+            </button>
+
+            <p id="message"></p>
+
+        </div>
+
+    </main>
+
+    <footer id="footer" style="background-color: blue; color: white; padding: 15px; text-align: center;">
+        <p>My Website Footer</p>
+    </footer>
+
+    <script src="cl.js"></script>
+
+</body>
+</html>
